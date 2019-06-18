@@ -8,10 +8,14 @@ I am going to solve at least 1000 problems from <a href="uva.onlinejudge.org">UV
   <tr>
     <th>Problem</th>
     <th>Solution</th>
+    <th>Date Solved</th>
   </tr>
+  
   <tr>
-    <td>11799</td>
+    <td><a href="https://uva.onlinejudge.org/external/117/11799.pdf">11799</td>
     <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/11799%20-%20Horror%20Dash">link</a></td>
-    
+    <td>June 18, 2019</td>
   </tr>
+  
+  
   </table>
