@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int main() {
+	int tc; /*Number of test cases*/
+	int count=0; /* case counter*/
+	scanf("%i",&tc);
+  
+  /* loop until tc becomes zero*/
+	while(tc--){
+  
+  /*Number of clowns*/
+		int clowns;
+		scanf("%i ",&clowns);
+    
+    /*Store best speed and temp variable to check speeds */
+		
+    int best_speed=0,temp;
+		while(t--){
+			scanf("%i",&temp);
+			if(temp>best_speed)best_speed=temp;
+ 
+		}
+		printf("Case %i: %i\n",++count,speed);
+	}
+ 
+	return 0;
+}
