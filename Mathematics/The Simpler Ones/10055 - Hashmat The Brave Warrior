@@ -1,0 +1,12 @@
+/* including math header for labs() */
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+
+long int a,b;
+while(scanf("%li %li",&a, &b)==2)printf("%li\n",labs(b-a));
+
+
+return 0;
+}
