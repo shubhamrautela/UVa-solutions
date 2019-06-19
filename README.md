@@ -11,7 +11,14 @@ I am trying to solve at least 1000 problems from UVa <a href="uva.onlinejudge.or
     <th>Date Solved</th>
   </tr>
   
-  
+
+<tr>
+    <td><a href="https://onlinejudge.org/external/123/12372.pdf">12372</td>
+    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Super%20Easy/12372%20-%20Packing%20for%20Holiday">Packing for Holiday</a></td>
+    <td>June 19, 2019</td>
+  </tr>
+
+
   <tr>
     <td><a href="https://onlinejudge.org/external/116/11679.pdf">11679</td>
     <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/11679%20-%20Sub%20Prime">Sub-prime</a></td>
