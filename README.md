@@ -14,7 +14,7 @@ I am going to solve at least 1000 problems from <a href="uva.onlinejudge.org">UV
   <tr>
     <td><a href="https://uva.onlinejudge.org/external/125/12554.pdf">12554</td>
     <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Mathematics/The%20Simpler%20Ones/10055%20-%20Hashmat%20The%20Brave%20Warrior">A Special "Happy Birthday" Song!!!</a></td>
-    <td>June 18, 2019</td>
+    <td>June 19, 2019</td>
   </tr>
   
   <tr>
