@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int c=0;
+	int B,N;
+	while(scanf("%i %i",&B, &N)==2 && B!=0){
+		int monetary_reserve[B];
+		int count=0;
+		while(count<B){
+			scanf("%i ",&monetary_reserve[count++]);
+		}
+		
+		int debtor, creditor, amount;
+		while(N--){
+			scanf("%i %i %i",&debtor,&creditor,&amount);
+			monetary_reserve[debtor-1]-=amount;
+			monetary_reserve[creditor-1]+=amount;
+		}
+		int i=0;
+		printf("case %i:",B);
+		for(;i<B;i++){
+			if(monetary_reserve[i]<0){
+				printf("N\n");
+				break;
+			}
+		}
+		if(i==B)printf("S\n");
+	}
+	return 0;
+}
