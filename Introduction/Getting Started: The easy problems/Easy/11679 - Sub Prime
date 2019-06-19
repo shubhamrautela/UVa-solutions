@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	/* B for Number of Banks. N for Number of debts*/
+	int B,N;
+	
+	/* Loop until B is not zero. */
+	while(scanf("%i %i",&B, &N)==2 && B!=0){
+	
+		/* arr to store the amount in monetary reserves of banks, because we have B number of banks so array size is B */
+		int monetary_reserve[B];
+		int count=0;
+		
+		/* get the values for monetary reserves for each bank */
+		while(count<B){
+			scanf("%i ",&monetary_reserve[count++]);
+		}
+		
+		/* variables to store values of debtor, creator and the debt(amount) */
+		int debtor, creditor, amount;
+		
+		while(N--){
+			scanf("%i %i %i",&debtor,&creditor,&amount);
+			
+			/* subtract the amount from the Debtor's monetary reserve and add it to the creditor's reserve */
+			monetary_reserve[debtor-1]-=amount;
+			monetary_reserve[creditor-1]+=amount;
+		}
+		int i=0;
+		
+		/* if at last there is a bank still in debt i.e. which has reserve less than zero print N else print S.*/
+		for(;i<B;i++){
+			if(monetary_reserve[i]<0){
+				printf("N\n");
+				break;
+			}
+		}
+		if(i==B)printf("S\n");
+	}
+	return 0;
+}
