@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main(void) {
+
+  /* number of test cases*/
+	int tc;
+	scanf("%i",&tc);
+  
+  /* counts number of cases*/
+	int c=1;
+	while(tc--){
+		int number_of_walls;
+		scanf("%i",&number_of_walls);
+    
+    /* store the heights or you can just use two temp variables */
+		int heights[number_of_walls];
+		
+		int count=0;
+		int high_jumps=0,low_jumps=0;
+		
+    /* get the first one*/
+    scanf("%i",&heights[count++]);
+    /* get the remaining one*/
+		while(count<number_of_walls){
+			scanf("%i ",&heights[count++]);
+      
+      /* if this wall is greater than previous one than one plus high jump, if smaller increment low_jumps*/
+			if(heights[count-1]>heights[count-2])high_jumps++;
+			else if(heights[count-1]<heights[count-2]) low_jumps++;
+		}
+		printf("Case %i: %i %i\n",c++,high_jumps,low_jumps);
+		
+	}
+	return 0;
+}
