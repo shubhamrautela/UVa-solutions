@@ -1,0 +1,19 @@
+#include<stdio.h>
+ 
+int main(){
+    int t;
+    scanf("%i",&t);
+    
+    /* variables for length width and height*/
+    int l,w,h;
+    int c=1;
+    while(t--){
+        scanf("%i %i %i",&l,&w,&h);
+        
+        /* if any of the dimensions is greater than 20 then it wont fit */
+        if(l<=20 && w<=20 && h<=20)
+        printf("Case %i: good",c++);
+        else printf("Case %i: bad",c++);
+    }
+return 0;
+}
