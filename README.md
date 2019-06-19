@@ -6,11 +6,16 @@ I am going to solve at least 1000 problems from <a href="uva.onlinejudge.org">UV
 
 <table>
   <tr>
-    <th>Problem Statement</th>
+    <th>Problem Description</th>
     <th>Solution</th>
     <th>Date Solved</th>
   </tr>
   
+  <tr>
+    <td><a href="https://uva.onlinejudge.org/external/125/12554.pdf">12554</td>
+    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Mathematics/The%20Simpler%20Ones/10055%20-%20Hashmat%20The%20Brave%20Warrior">A Special "Happy Birthday" Song!!!</a></td>
+    <td>June 18, 2019</td>
+  </tr>
   
   <tr>
     <td><a href="https://uva.onlinejudge.org/external/100/10055.pdf">10055</td>
