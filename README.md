@@ -26,7 +26,7 @@ I am trying to solve at least 1000 problems from UVa <a href="uva.onlinejudge.or
   
   <tr>
     <td><a href="https://uva.onlinejudge.org/external/125/12554.pdf">12554</td>
-    <td><a href="tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12554%20-%20A%20Special%20"Happy%20Birthday"%20Song!">A Special "Happy Birthday" Song!!!</a></td>
+    <td><a href="/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12554%20-%20A%20Special%20"Happy%20Birthday"%20Song!">A Special "Happy Birthday" Song!!!</a></td>
     <td>June 19, 2019</td>
   </tr>
   
