@@ -1,6 +1,6 @@
 # UVa-solutions
 
-Problems solved: 17
+<b>Problems solved: 18</b>
 
 I am going to solve at least 1000 problems from <a href="uva.onlinejudge.org">UVa</a> in the next two years and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
 
