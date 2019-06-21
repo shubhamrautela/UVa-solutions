@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int i;
+	scanf("%i",&i);
+	printf("Lumberjacks:\n");
+	while(i--){
+		int heights[10];
+		int t=0;
+		
+		while(t<10){
+			scanf("%i ",&heights[t++]);
+		}
+		int count=1;
+		for(;count<9;count++)
+		if((heights[count-1]>heights[count] && heights[count+1]>heights[count]) || (heights[count-1]<heights[count] && heights[count+1]<heights[count])){
+			printf("Unordered\n");
+			break;
+		}
+		if(count==9)
+		printf("Ordered\n");
+		
+	}
+	return 0;
+}
