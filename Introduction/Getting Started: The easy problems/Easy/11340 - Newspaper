@@ -1,0 +1,48 @@
+/* worng answer!!!!!!!!!!!!*/
+
+#include <stdio.h>
+
+int main(void) {
+	int N,K,M;
+	scanf("%i",&N);
+	
+	while(N--){
+		scanf("%i\n",&K);
+		
+		int arr[129];
+		int a=0;
+		for(;a<129;a++)arr[a]=0;
+		
+		char c;
+		int value;
+		while(K--){
+			scanf("%c %i\n",&c,&value);
+			
+			arr[(int)c]=value;
+		}
+		
+		scanf("%i\n",&M);
+		
+		char line[10002];
+		int sum=0;
+		while(M--){
+			
+			fgets(line,sizeof(line),stdin);
+		
+			int count=0;
+			int val;
+		
+			while((val=line[count++])!=0){
+				sum=sum+arr[val];
+			}
+		}
+		int dollar,cents;
+		cents=sum%100;
+		dollar=sum/100;
+		if(cents==0)
+		printf("%i.00$\n",dollar);
+		else
+		printf("%i.%i$\n",dollar,cents);
+	}
+	return 0;
+}
