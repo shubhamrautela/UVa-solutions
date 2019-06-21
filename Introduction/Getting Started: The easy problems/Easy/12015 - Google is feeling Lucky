@@ -1,0 +1,36 @@
+/* this code shows runtime error with the input from uDebug at case 639 but got accepted in the site. */
+
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	char sites[11][101];
+	int ranks[10];
+	
+	scanf("%i\n",&t);
+	
+	int a=1;
+	while(a<=t){
+		
+		int count=0;
+		int greatestRank=0;
+		int rank;
+		while(count<10){
+			scanf("%s %i\n",&sites[count],&rank);
+			
+			ranks[count++]=rank;
+			
+			if(rank>greatestRank)greatestRank=rank;
+			
+		}
+		printf("Case #%i:\n",a++);
+		rank=0;
+		while(rank<10){
+			if(ranks[rank]==greatestRank)
+			printf("%s\n",sites[rank]);
+			rank++;
+		}
+		
+	}
+	return 0;
+}
