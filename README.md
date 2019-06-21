@@ -13,7 +13,7 @@ I am trying to solve at least 1000 problems from UVa <a href="uva.onlinejudge.or
   
   <tr>
     <td><a href="https://onlinejudge.org/external/120/12015.pdf">12372</td>
-    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12015%20-%20Google%20is%20feeling%20Lucky</a>Google is feeling Lucky</td>
+    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12015%20-%20Google%20is%20feeling%20Lucky>Google is feeling Lucky</a></td>
     <td>June 21, 2019</td>
   </tr>
 
