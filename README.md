@@ -10,9 +10,15 @@ I am trying to solve at least 1000 problems from UVa <a href="uva.onlinejudge.or
     <th>Solution</th>
     <th>Date Solved</th>
   </tr>
+ 
+  <tr>
+    <td><a href="https://onlinejudge.org/external/121/12157.pdf">12157</td>
+    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12157%20-%20Tariff%20Plan">Tarrif Plan</a></td>
+    <td>June 21, 2019</td>
+  </tr>
   
   <tr>
-    <td><a href="https://onlinejudge.org/external/120/12015.pdf">11942</td>
+    <td><a href="https://onlinejudge.org/external/119/11942.pdf">11942</td>
     <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Easy/12015%20-%20Google%20is%20feeling%20Lucky">Google is feeling lucky</a></td>
     <td>June 21, 2019</td>
   </tr>
