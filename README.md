@@ -13,10 +13,14 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <th>Date Solved</th>
   </tr>
  
-  
+  <tr>
+    <td><a href="https://onlinejudge.org/external/104/10424.pdf">12157</td>
+    <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium/10424%20-%20Love%20Calculator">Love Calculator</a></td>
+    <td>June 22, 2019</td>
+  </tr>
   <tr>
     <td><a href="https://onlinejudge.org/external/119/11956.pdf">12157</td>
-    <td><a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium">Brainfuck</a></td>
+    <td><a href="../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium">Brainfuck</a></td>
     <td>June 22, 2019</td>
   </tr>
   
