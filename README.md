@@ -1,7 +1,7 @@
 # UVa-solutions
 
 <b>Problems solved: 29</b>
-
+<b>Current Rank: 36000+</b>
 I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinejudge.org">Online Judge</a> during the <em><a title="started on june 15 2019">next two years</a></em> and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
 
 <table>
