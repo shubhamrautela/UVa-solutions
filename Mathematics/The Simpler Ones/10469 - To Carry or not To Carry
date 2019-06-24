@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+/* using unsigned int as the question says*/
+unsigned int a,b;
+
+while(scanf("%u %lu\n",&a,&b)==2){
+/* There is no carry in the addition, if both bits are different then it is one otherwise zero so we will use XOR */
+printf("%u\n",a^b);
+
+}
+return 0;
+}
