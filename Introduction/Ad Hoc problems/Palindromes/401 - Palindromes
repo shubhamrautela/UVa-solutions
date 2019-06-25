@@ -1,0 +1,67 @@
+/** spent more than five hours on it due to a teeny tiny glitch */
+
+#include <stdio.h>
+#include<string.h>
+
+char mirror[]={'A','n','n','n','3','n','n','H','I','L','n','J','M','n','O','n','n','n','2','T','U','V','W','X','Y','5'};
+char mirrornum[]={'1','S','E','n','Z','n','n','8','n'};
+int reverse(char string[]){
+	
+	char str[21];
+	strcpy(str,string);
+	
+	int length=strlen(string);
+	
+	int i=0;
+	for(;--length>=0;i++)
+	str[i]=string[length];
+	
+	if(strcmp(string,str)==0)return 1;
+	else return 0;
+}
+int is_mirrored(char string[]){
+	int length=strlen(string);
+	int i=0;
+	int l=length-1;
+	for(;i<length/2+1;i++,l--){
+	char a=string[i];
+	if(a>=65){
+		if(mirror[a-65]!=string[l] || mirror[a-65]=='n')
+		return 0;
+	}
+	else {
+		if(mirrornum[a-49]!=string[l] || mirror[a-65]=='n')
+		return 0;
+	}
+	
+	}
+	return 1;
+}
+void type_of_string(char string[]){
+	int is_palindrome=reverse(string);
+
+	if(is_palindrome){
+		int a=is_mirrored(string);
+		if(a)printf("%s -- is a mirrored palindrome.\n",string);
+		else printf("%s -- is a regular palindrome.\n",string);
+	}
+	else if(is_mirrored(string)){
+		printf("%s -- is a mirrored string.\n",string);
+	}
+	else printf("%s -- is not a palindrome.\n",string);
+}
+int main(void) {
+	
+	
+	
+	char string[21];
+	while(scanf("%s\n",string)==1){
+	
+		type_of_string(string);	
+		printf("\n");
+		int j=0;
+		for(;j<21;j++)
+	string[j]='\0';
+	}
+	return 0;
+}
