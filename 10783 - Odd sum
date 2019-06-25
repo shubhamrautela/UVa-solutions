@@ -1,0 +1,21 @@
+/* needs direct formula */
+
+
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%i\n",&t);
+	int c=1;
+	int a,b;
+	while(t--){
+		int sum=0;
+		scanf("%i\n",&a);
+		scanf("%i\n",&b);
+		int i=0;
+		if(a%2!=0 && b%2!=0)
+		sum=((b/2)+1)-2*a;
+		printf("Case %i: %i\n",c++,sum);
+	}
+	return 0;
+}

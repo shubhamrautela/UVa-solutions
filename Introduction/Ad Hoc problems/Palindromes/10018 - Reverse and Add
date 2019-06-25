@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+/* use long int */ 
+
+/* reverse function
+* first keep the count of number of digits 
+* then raise 10 to that power and multiply it with the digit at lower place
+* keep doing it */
+long long int reverse(long long int i){
+	
+	long long int sum=0;
+	int count=0;
+	long long int temp=i;
+	while(temp){
+		count++;
+		temp/=10;
+	}
+	while(i){
+		
+		sum=sum+pow(10,--count)*(i%10);
+		i/=10;
+	
+	}
+	
+	return sum;
+}
+
+/* simply check if the number is equal to its reverse or not */
+int palindrome(long long int i){
+	if(i==reverse(i))return 1;
+	else return 0;
+}
+
+
+
+int main(void) {
+	int t;
+	long long int num=0;
+	scanf("%i\n",&t);
+	int count;
+	while(t--){
+		scanf("%li\n",&num);
+		count=0;
+    
+    /* keep count of iterations and loop until num is a palindrome*/
+		while(1){
+			num=num+reverse(num);
+			count++;
+			if(palindrome(num)==1)break;
+		}
+		printf("%li %li\n",count,num);
+	}
+	
+	return 0;
+}

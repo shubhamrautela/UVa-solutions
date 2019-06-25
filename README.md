@@ -1,8 +1,8 @@
 # UVa-solutions
+<h6>Started on june 15 2019</h6>
+<b>Problems solved: 34</b><br>
+<b>Current Rank: 31000+</b><br>
 
-<b>Problems solved: 29</b><br>
-
-<b>Current Rank: 36000+</b><br>
 
 I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinejudge.org">Online Judge</a> during the <em><a title="started on june 15 2019">next two years</a></em> and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
 
@@ -13,10 +13,32 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <th>Date Solved</th>
   </tr>
  
+
+ <tr>
+    <td><a href="https://onlinejudge.org/external/107/10783.pdf">10783</td>
+    <td><a href="../../../tree/master/odd%20sum">Odd Sum</a></td>
+    <td>June 24, 2019</td>
+  </tr>
+  <tr>
+    <td><a href="https://onlinejudge.org/external/119/10469.pdf">10469</td>
+    <td><a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10469%20-%20To%20Carry%20or%20not%20To%20Carry">To Carry or not to Carry</a></td>
+    <td>June 24, 2019</td>
+  </tr>
+  <tr>
+    <td><a href="https://onlinejudge.org/external/100/10071.pdf">10071</td>
+    <td><a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10071%20-%20Back%20to%20High%20School%20Physics">Back to Highschool Physics</a></td>
+    <td>June 24, 2019</td>
+  </tr>
+  
+  <tr>
+    <td><a href="https://onlinejudge.org/external/119/11956.pdf">11956</td>
+    <td><a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium/11956%20-%20BrainFuck">Brainfuck</a></td>
+
   
   <tr>
     <td><a href="https://onlinejudge.org/external/119/11956.pdf">12157</td>
     <td><a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium">Brainfuck</a></td>
+
     <td>June 22, 2019</td>
   </tr>
   
