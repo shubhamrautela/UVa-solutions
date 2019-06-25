@@ -1,0 +1,76 @@
+#include <stdio.h>
+
+int main(void) {
+	/* for test case*/
+	int t;
+	scanf("%i\n",&t);
+  
+  /* store the values of memory in arr*/
+	int address[100];
+	
+  /* pointer stores the current byte to which it is pointing*/
+	int pointer=0;
+  
+	
+	
+	char input;
+	int c=1;
+	while(c<=t){
+		pointer=0;
+    
+    /* set initial values to zero*/
+		for(;pointer<100;pointer++)address[pointer]=0;
+    
+    /* get the commands in an array*/
+		char a[100001];
+		fgets(a,sizeof(a),stdin);
+		
+		pointer=0;
+		int i=0;
+    
+		while(1){
+    /* while input not a break line character */
+		input=a[i++];
+    
+		if(input=='\0')break;
+		
+    if(input=='<'){
+    /* if pointer is pointing at first byte then point to last byte */
+			if(pointer==0)pointer=99;
+			else pointer--;
+		}
+    /* if pointer is pointing at last byte then point to first byte */
+		else if(input=='>'){
+			if(pointer==99)pointer=0;
+			else pointer++;
+		}
+		else if(input=='+'){
+    /* if cell value is 255 then set it to zero */
+			if(address[pointer]==255)address[pointer]=0;
+			else
+			address[pointer]++;
+			
+		}
+		else if(input=='-'){
+    
+    /* if cell value is 0 set it to 255 */
+			if(address[pointer]==0)address[pointer]=255;
+			else
+			address[pointer]--;
+	}
+	
+	scanf("\n");
+	
+	}
+	pointer=0;
+	printf("Case %i:",c++);
+  
+  /* print the dump. 0 is the padding character and 2 represents number of digits in %02X */
+	for(;pointer<100;pointer++)
+	printf(" %02X",address[pointer]);
+	printf("\n");
+	
+	
+	}
+	return 0;
+}
