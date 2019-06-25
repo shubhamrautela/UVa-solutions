@@ -33,12 +33,6 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
   <tr>
     <td><a href="https://onlinejudge.org/external/119/11956.pdf">11956</td>
     <td><a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium/11956%20-%20BrainFuck">Brainfuck</a></td>
-
-  
-  <tr>
-    <td><a href="https://onlinejudge.org/external/119/11956.pdf">12157</td>
-    <td><a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium">Brainfuck</a></td>
-
     <td>June 22, 2019</td>
   </tr>
   
