@@ -1,0 +1,27 @@
+/* need optimizations */
+
+
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%i\n",&t);
+	long int a,b,c;
+	int Case=0;
+	while(Case++<t){
+		scanf("%li %li %li\n",&a,&b,&c);
+		
+		if(a+b>c && b+c>a && c+a>b){
+			if(a==b || a==c || b==c){
+			if(b==c && a==c)
+			printf("Case %i: Equilateral\n",Case);
+			else printf("Case %i: Isosceles\n",Case);
+				
+			}
+			else printf("Case %i: Scalene\n",Case);
+			
+		}
+		else printf("Case %i: Invalid\n",Case);
+	}
+	return 0;
+}
