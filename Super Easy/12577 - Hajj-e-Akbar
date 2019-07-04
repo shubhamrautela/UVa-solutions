@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	int c=1;
+	char arr[6];
+	while(1){
+		scanf("%s\n",arr);
+		
+		if(arr[0]=='H')printf("Case %i: Hajj-e-Akbar\n",c++);
+		else if(arr[0]=='U')printf("Case %i: Hajj-e-Asghar\n",c++);
+		else break;
+	}
+	return 0;
+}
