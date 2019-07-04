@@ -13,6 +13,11 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <th>Date Solved</th>
   </tr>
  
+ <tr>
+    <td><a href="https://onlinejudge.org/external/125/12577.pdf">12577
+    <td><a href="../../../tree/master/super%20easy/12577%20-%20-Hajj-e-Akbar">Hajj-e-Akbar</a></td>
+    <td>July 5,2019</td>
+  </tr>
 
  <tr>
     <td><a href="https://onlinejudge.org/external/107/10783.pdf">10783</td>
