@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	char input[400];
+	while(scanf("%s",input)==1){
+		int i=0;
+		while(input[i]!='\0'){
+			printf("%c",input[i++]-7);
+		}
+	printf("\n");	
+	}
+	
+	
+	return 0;
+}
