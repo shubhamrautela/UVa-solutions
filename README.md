@@ -1,7 +1,7 @@
 # UVa-solutions
 <h6>Started on june 15 2019</h6>
-<b>Problems solved: 34</b><br>
-<b>Current Rank: 31000+</b><br>
+<b>Problems solved: 38</b><br>
+<b>Current Rank: 29000+</b><br>
 
 
 I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinejudge.org">Online Judge</a> during the <em><a title="started on june 15 2019">next two years</a></em> and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
