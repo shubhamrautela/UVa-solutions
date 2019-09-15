@@ -1,7 +1,7 @@
 # UVa-solutions
 <h6>Started on june 15 2019</h6>
-<b>Problems solved: 38</b><br>
-<b>Current Rank: 29000+</b><br>
+<b>Problems solved: 39</b><br>
+<b>Current Rank: 28000+</b><br>
 
 
 I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinejudge.org">Online Judge</a> during the <em><a title="started on june 15 2019">next two years</a></em> and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
@@ -11,6 +11,12 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <th>Problem Description</th>
     <th>Solution</th>
     <th>Date Solved</th>
+  </tr>
+ 
+ <tr>
+    <td><a href="https://onlinejudge.org/external/2/255.pdf">255
+    <td><a href="../../blob/master/Introduction/Ad%20Hoc%20problems/Game%20(chess)/255%20-%20Correct%20Move>255 - Correct Move</a></td>
+    <td>September 15,2019</td>
   </tr>
  
  <tr>
