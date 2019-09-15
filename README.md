@@ -14,19 +14,19 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
   </tr>
  
  <tr>
-    <td><a href="https://onlinejudge.org/external/2/255.pdf">255
+  <td><a href="https://onlinejudge.org/external/2/255.pdf">255</a></td>
     <td><a href="../../blob/master/Introduction/Ad%20Hoc%20problems/Game%20(chess)/255%20-%20Correct%20Move>255 - Correct Move</a></td>
     <td>September 15,2019</td>
   </tr>
  
  <tr>
-    <td><a href="https://onlinejudge.org/external/125/12577.pdf">12577
+    <td><a href="https://onlinejudge.org/external/125/12577.pdf">12577</a></td>
     <td><a href="../../../tree/master/super%20easy/12577%20-%20-Hajj-e-Akbar">Hajj-e-Akbar</a></td>
     <td>July 5,2019</td>
   </tr>
 
  <tr>
-    <td><a href="https://onlinejudge.org/external/107/10783.pdf">10783</td>
+  <td><a href="https://onlinejudge.org/external/107/10783.pdf">10783</a></td>
     <td><a href="../../../tree/master/odd%20sum">Odd Sum</a></td>
     <td>June 24, 2019</td>
   </tr>
