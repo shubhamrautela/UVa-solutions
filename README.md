@@ -1,6 +1,6 @@
 # UVa-solutions
 <h6>Started on june 15 2019</h6>
-<b>Problems solved: 39</b><br>
+<b>Problems solved: 40</b><br>
 <b>Current Rank: 28000+</b><br>
 
 
