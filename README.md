@@ -9,24 +9,30 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     | Problem Description | Solution | Date Solved |
     |:-------------------:|:--------:|:-----------:|
 
-|<a href="https://onlinejudge.org/external/2/255.pdf">255</a> |<a href="../../blob/master/Introduction/Ad%20Hoc%20problems/Game%20(chess)/255%20-%20Correct%20Move">255 - Correct Move</a> | September 15, 2019
+| <a href="https://onlinejudge.org/external/2/255.pdf">255</a>
+| <a href="../../blob/master/Introduction/Ad%20Hoc%20problems/Game%20(chess)/255%20-%20Correct%20Move">255 - Correct Move</a>
+| September 15, 2019
+|
 
-|<a href="https://onlinejudge.org/external/125/12577.pdf">12577</a>
-|<a href="../../../tree/master/super%20easy/12577%20-%20-Hajj-e-Akbar">Hajj-e-Akbar</a>
-|July 5, 2019
+| <a href="https://onlinejudge.org/external/125/12577.pdf">12577</a>
+| <a href="../../../tree/master/super%20easy/12577%20-%20-Hajj-e-Akbar">Hajj-e-Akbar</a>
+| July 5, 2019
+|
 
-|<a href="https://onlinejudge.org/external/107/10783.pdf">10783
-|<a href="../../../tree/master/odd%20sum">Odd Sum</a>
+| <a href="https://onlinejudge.org/external/107/10783.pdf">10783
+| <a href="../../../tree/master/odd%20sum">Odd Sum</a>
+| June 24, 2019
+|
+
+| <a href="https://onlinejudge.org/external/119/10469.pdf">10469</a>
+| <a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10469%20-%20To%20Carry%20or%20not%20To%20Carry">To Carry or not to Carry</a>
+| June 24, 2019
+|
+
+|<a href="https://onlinejudge.org/external/100/10071.pdf">10071
+|<a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10071%20-%20Back%20to%20High%20School%20Physics">Back to Highschool Physics</a>
 |June 24, 2019
-
-|<a href="https://onlinejudge.org/external/119/10469.pdf">10469</a>
-|<a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10469%20-%20To%20Carry%20or%20not%20To%20Carry">To Carry or not to Carry</a>
-|June 24, 2019
-
-    |<a href="https://onlinejudge.org/external/100/10071.pdf">10071
-    |<a href="../../../tree/master/Mathematics/The%20Simpler%20Ones/10071%20-%20Back%20to%20High%20School%20Physics">Back to Highschool Physics</a>
-    |June 24, 2019
-
+|
 
     |<a href="https://onlinejudge.org/external/119/11956.pdf">11956
     |<a href="../../../tree/master/Introduction/Getting%20Started:%20The%20easy%20problems/Medium/11956%20-%20BrainFuck">Brainfuck</a>
