@@ -6,7 +6,6 @@
 
 I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinejudge.org">Online Judge</a> during the <em><a title="started on January 27, 2021">next two years</a></em> and i will add all those solutions here. I will be solving questions in the order from the book <a href="https://cpbook.net">Competitive Programming 3</a>.
 
-<table>
 <tr>
     <th> Problem Description </th>
     <th> Solution </th> 
@@ -126,5 +125,3 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <td><a href="https://github.com/shubhamrautela/UVa-solutions/blob/master/11799%20-%20Horror%20Dash">Horror Dash</a></td>
     <td>June 18, 2019</td>
 </tr>
-
-    </table>
