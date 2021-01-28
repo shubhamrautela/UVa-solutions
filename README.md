@@ -14,10 +14,9 @@ I am trying to solve at least 1000 problems from UVa <a href="http://uva.onlinej
     <th> Date Solved </th> 
 </tr>
 
-
 <tr>
     <td> <a href="https://onlinejudge.org/external/1/100.pdf">100</a></td>
-    <td> <a href="./Mathematics/Mathematical Simulation/The 3n + 1 Problem">255 - Correct Move</a></td>
+    <td> <a href="./Mathematics/Mathematical Simulation/The 3n + 1 Problem">100 - The 3n+1 Problem</a></td>
     <td> January 1, 2021</td>
 </tr>
 
